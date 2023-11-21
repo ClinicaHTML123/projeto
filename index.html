@@ -1,89 +1,226 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Clínica de Estética</title>
-    <link rel="stylesheet" href="estilos.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="estilos.css"> <!-- Link para seu arquivo CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Link para font awesome (ícones) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Link para a fonte Roboto -->
+    <script src="script.js"></script>
 
 
 </head>
+
 <body>
 
     <header class="header">
+
         <div class="container">
             <h1 class="logo"></h1>
             <nav class="menu">
                 <ul>
-                    <li><a href="#Tratamento 1"><h3> &bull; Tratamento 1</h3></a></li>
-                    <li><a href="#Tratamento 2"><h3>&bull;  Tratamento 2</h3></a></li>
-                    <li><a href="#Tratamento 3"><h3>&bull;  Tratamento 3</h3></a></li>
-                    <li><a href="#Outros Serviços"><h3>&bull;  Outros Serviços</h3></a></li>
-                    <li class="login-cadastro"><a href="#cadastro"><h3>Cadastre-se</h3></a></li>
-                   
-                    <li class="login-cadastro"><a href="#entrar"><h3>Entrar</h3></a>&vert;</li>
+
+                    <li><img src="logo - PNG.png"></li>
+                    <li><a href="#Tratamento 1">
+                            <h3> &bull; Tratamento 1</h3>
+                        </a></li>
+                    <li><a href="#Tratamento 2">
+                            <h3>&bull; Tratamento 2</h3>
+                        </a></li>
+                    <li><a href="#Tratamento 3">
+                            <h3>&bull; Tratamento 3</h3>
+                        </a></li>
+                    <li><a href="#Outros Serviços">
+                            <h3>&bull; Nossos Serviços</h3>
+                        </a></li>
+                    <li class="login-cadastro"><a href="cadastro.html">
+                            <h3>Cadastre-se</h3>
+                        </a></li>
+
+                    <li class="login-cadastro"><a href="logon.html">
+                            <h3>Entrar</h3>
+                        </a></li>
                 </ul>
             </nav>
-            <br>
+            
         </div>
     </header>
-    
- 
-  <center> <p><i><u>GOOD SKIN</u></i></p></center>
-  <div class="section">
-    <div class="slider">
-        <div class="slides">
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
+    <hr class="style-one">
 
-            <div class="slide first">
-                <img  src="clinica-estetica.jpg" alt="Imagem 1" />
-            </div>
-            <div class="slide">
-                <img  src="clinica-estetica1.jpg" alt="Imagem 2"/>
-            </div>
-            <div class="slide">
-                <img src="clinica-estetica3.jpg" alt="Imagem 3"/>
+
+    <center>
+        <p class="Titulos"><i><u>GOOD SKIN</u></i></p>
+    </center>
+    <div class="section">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+
+                <div class="slide first">
+                    <img src="clinica-estetica.jpg" alt="Imagem 1" />
+                </div>
+                <div class="slide">
+                    <img src="clinica-estetica1.jpg" alt="Imagem 2" />
+                </div>
+                <div class="slide">
+                    <img src="clinica-estetica3.jpg" alt="Imagem 3" />
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+
             </div>
 
-            <div class="navigation-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
             </div>
 
         </div>
+    </div>
+    <br><br>
 
-        <div class="manual-navigation">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
+    <center>
+        <p class="Titulos"><u><i>Nossos serviços</i></u>
+        <p>
+    </center>
+    <br><br>
+    <div class="section2"><br><br>
+        <div class="rowTabela">
+
+
+            <table>
+
+                <tr>
+                    <td>
+
+
+                        <div class="card">
+                            <img src="o-massagista-faz-massagem-nas-costas-do-jovem-em-um-salao-de-beleza.jpg"
+                                alt="Avatar" style="width:100%">
+                            <div class="containerCard">
+                                <h4><b>Massagem</b></h4>
+                                <p>R$249,00</p>
+
+                            </div>
+                        </div>
+
+                    </td>
+                    <td>
+
+
+                        <div class="card">
+                            <img src="mulher-jovem-e-bonita-deitada-e-esperando-sua-massagem-conceito-de-spa.jpg"
+                                alt="Avatar" style="width:100%">
+                            <div class="containerCard">
+                                <h4><b>Momento Relax</b></h4>
+                                <p>R$350,00</p>
+
+                            </div>
+                        </div>
+
+                    </td>
+                    <td>
+                        <div class="card">
+                            <img src="jovem-fazendo-sua-rotina-matinal.jpg" alt="Avatar" style="width:100%">
+                            <div class="containerCard">
+                                <h4><b>Skin booster</b></h4>
+                                <p>R$198,00</p>
+
+                            </div>
+                        </div>
+
+                    </td>
+                    <td>
+                        <div class="card">
+                            <img src="mulher-afro-americana-recebendo-uma-massagem-relaxante-no-spa.jpg" alt="Avatar" style="width:100%">
+                            <div class="containerCard">
+                                <h4><b>Tratamentos corporais</b></h4>
+                                <p>R$320,00</p>
+
+                            </div>
+                        </div>
+
+                    </td>
+                </tr>
+
+
+            </table>
         </div>
 
     </div>
-</div>
 
-    
-    <center><p><u>&bull; SOBRE NÓS</u></p></center><br><diV class="section1">
-    <h2>"Na GOOD SKIN, acreditamos que beleza é bem-estar. Nossa missão é proporcionar uma experiência completa, onde cada cliente se sinta cuidado, confiante e rejuvenescido. Com uma equipe dedicada de especialistas em estética, estamos comprometidos em oferecer tratamentos personalizados que atendam às necessidades individuais de cada pessoa.<br><br>
 
-    Nossos profissionais altamente qualificados e apaixonados pelo que fazem estão constantemente atualizados com as mais recentes tendências e avanços na indústria da beleza. Na nossa clínica, você encontrará uma variedade de serviços, desde massagens relaxantes até procedimentos avançados de skincare e tratamentos corporais inovadores.<br><br>
-    
-    Além de buscar resultados excepcionais, valorizamos a segurança, a integridade e a satisfação do cliente. Queremos ser seu parceiro na jornada em direção à sua melhor versão. Estamos aqui para cuidar da sua beleza interior e exterior, ajudando você a alcançar uma sensação de bem-estar que se reflete na sua aparência.<br><br>
-    
-    Na GOOD SKIN, estamos comprometidos em proporcionar uma experiência única e transformadora, onde você se sentirá revigorado, confiante e radiante. Venha nos visitar e permita-nos ajudar a revelar a sua beleza natural."</h2>
 
-<br>
-</diV>
- <!-- zapzap -->
-<link rel="stylesheet" href="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-button.css">
-<a id="robbu-whatsapp-button" target="_blank" href="https://api.whatsapp.com/send?phone=61998444848">
-  <div class="rwb-tooltip">Faça um Agendamento!</div>
-  <img src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg">
-</a>
 
-<script src="script.js"></script>
+
+
+    <link rel="stylesheet"
+        href="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-button.css">
+    <a id="robbu-whatsapp-button" target="_blank" href="https://api.whatsapp.com/send?phone=61998444848">
+        <div class="rwb-tooltip">Faça um Agendamento!</div>
+        <img src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg">
+    </a>
+    <br><br> <br><br>
+    <hr class="style-seven">
+
+    <footer>
+
+        <div class="grid-container">
+
+            <div class="item2 divGrid">
+                <p><strong>Acompanhe a gente!</strong></p>
+                <a><img src="youtube.png" width="25px"></a>
+                <a><img src="instagram.png" width="25px"></a>
+                <a><img src="facebook.png" width="25px"></a>
+                <p><strong>Nossos contatos!</strong></p>
+                <p><img src="whatsapp.png" width="25px"><strong> (61) 99999-9999</strong></p>
+                <p><img src="telephone.png" width="25px"><strong> (61) 3030-3030</strong></p>
+
+            </div>
+            <div class="item3 divGrid">
+                <p align="left"><strong>Politicas</strong></p>
+                <p class="Politicas">Politica de privacidade</p>
+                <p class="Politicas">Politica de pagamento</p>
+                <p class="Politicas">Termos e politicas</p>
+                <p align="left"><strong>Ajuda </strong></p>
+                <p class="Politicas"><img src="question.png" width="25px"> FAQ </p>
+
+
+
+
+
+            </div>
+            <div class="item4 divGrid">
+                <p align="left"><strong>Pagamentos</strong></p>
+                <a><img src="visa.png" width="25px" align="left"> </a>
+                <a><img src="card.png" width="25px" align="left"> </a>
+            </div>
+            <div class="item5 divGrid">
+
+                <h3 align="left"><strong> Nossa localização</strong></h3>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.2414885968315!2d-48.03000308856033!3d-15.791215622815129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3387462f2785%3A0x2af832e22ca970fa!2sSpace%20Jump!5e0!3m2!1spt-BR!2sbr!4v1700571713147!5m2!1spt-BR!2sbr"
+                    width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" align="left"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+            </div>
+
+        </div>
+
+    </footer>
+
 </body>
+
 </html>
