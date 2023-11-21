@@ -1,11 +1,12 @@
 body {
     background-color: rgba(255, 255, 255, 0.938)
 }
+
 .menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #888484f3;
+    background-color: #fffffff3;
 }
 
 .menu li {
@@ -22,6 +23,7 @@ body {
 .menu li a:hover {
     background-color: #ddd;
 }
+
 .login-cadastro {
     float: right;
 }
@@ -34,66 +36,73 @@ body {
     text-decoration: none;
 }
 
-.slider{
-    margin:0 auto;
+.slider {
+    margin: 0 auto;
     width: 800px;
     height: 400px;
     overflow: hidden;
-    background-size: auto, auto; 
+    background-size: auto, auto;
     background-size: 50%, 25%, 25%;
     background-size: 6px, auto, contain;
 }
 
-.slides{
+.slides {
     width: 400%;
     height: 400px;
     display: flex;
 }
 
 .slides input {
-     display: none;
+    display: none;
 }
 
-.slide{
+.slide {
     width: 25%;
     position: relative;
     transition: 0.5s;
 }
 
-.slide img{
+.slide img {
     width: 800px;
 }
-.manual-navigation{
+
+.manual-navigation {
     position: absolute;
     width: 800px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
 }
-.manual-btn{
+
+.manual-btn {
     border: 2px solid #fff;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
 }
-.manual-btn:not(:last-child){
+
+.manual-btn:not(:last-child) {
     margin-right: 40px;
 }
-.manual-btn:hover{
+
+.manual-btn:hover {
     background-color: #FFF;
 }
 
-#radio1:checked ~ .first{
+#radio1:checked~.first {
     margin-left: 0;
 }
-#radio2:checked ~ .first{
+
+#radio2:checked~.first {
     margin-left: -25%;
 }
-#radio3:checked ~ .first{
+
+#radio3:checked~.first {
     margin-left: -50%;
 }
-.navigation-auto div{
+
+.navigation-auto div {
     border: 2px solid #20a6ff;
     padding: 5px;
     border-radius: 10px;
@@ -101,31 +110,36 @@ body {
     transition: 1s;
 
 }
-.navigation-auto{
+
+.navigation-auto {
     position: absolute;
     width: 800px;
     margin-top: 360px;
     display: flex;
     justify-content: center;
 }
-.navigation-auto div:not(:last-child){
+
+.navigation-auto div:not(:last-child) {
     margin-right: 40px;
 }
 
-#radio1:checked ~.navigation-auto .auto-btn1{
+#radio1:checked~.navigation-auto .auto-btn1 {
     background-color: #FFF;
 }
-#radio2:checked ~.navigation-auto .auto-btn2{
+
+#radio2:checked~.navigation-auto .auto-btn2 {
     background-color: #FFF;
 }
-#radio3:checked ~.navigation-auto .auto-btn3{
+
+#radio3:checked~.navigation-auto .auto-btn3 {
     background-color: #FFF;
 }
-p {
+
+.Titulos {
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(0, 0, 0);
-    
+
 }
 
 .section {
@@ -135,6 +149,7 @@ p {
     padding: 80px;
     text-align: center;
 }
+
 .section1 {
     background-image: url('https://png.pngtree.com/png-vector/20210527/ourlarge/pngtree-one-line-drawing-two-reflect-face-aesthetic-png-image_3372926.jpg');
     background-size: auto;
@@ -143,10 +158,74 @@ p {
     margin-top: cover;
 }
 
-.section2{
-    background-image: url("atendente.jpg");
+.section2 {
+    background-image: url("folhas.jpg");
     background-size: cover;
     padding: auto;
     text-align: center;
-    margin: auto;
+    margin: 0;
+    
+    
+}
+
+
+/*RODAPE*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.grid-container> .divGrid {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px 0;
+    font-size: 15px;
+    width: 100%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 70%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .containerCard {
+    padding: 4px 50px;
+  }
+
+  .Politicas{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(114, 114, 114);
+    text-align: left;
+  }
+  hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
