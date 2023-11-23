@@ -1,7 +1,9 @@
 body {
     background-color: rgba(255, 255, 255, 0.938)
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .menu ul {
     list-style-type: none;
     margin: 0;
@@ -228,4 +230,8 @@ hr.style-one {
     height: 1px;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+a {
+    color: black;
 }
